@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
+group :production do
+  gem "pg", "1.3.5"
+end
+
 gem "bcrypt",          "3.1.18"
 
 gem "bootstrap-sass",  "3.4.1"
