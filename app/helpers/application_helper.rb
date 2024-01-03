@@ -9,4 +9,4 @@ module ApplicationHelper
 		"#{page_title} | #{base_title}"                 # 文字列の式展開
 	  end
 	end
-  end
+end
